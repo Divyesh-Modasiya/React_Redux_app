@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainhome {
+  background-image: url(./Component/img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#btn1:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
